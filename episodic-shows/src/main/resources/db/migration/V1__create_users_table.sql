@@ -1,4 +1,4 @@
-create table users (
-  id    bigint        not null    auto_increment    primary key,
-  email varchar(255)  not null    unique
+CREATE TABLE users (
+  id    BIGINT        NOT NULL    AUTO_INCREMENT    PRIMARY KEY,
+  email VARCHAR(255)  NOT NULL    UNIQUE
 );
